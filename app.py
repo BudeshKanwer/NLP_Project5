@@ -92,7 +92,7 @@ if st.button("Review Analysis"):
       
 if st.button("About"):
   st.subheader("Developed by Dr. Budesh Kanwer")
-  st.subheader("Dy Head , Department of Computer Engineering")
+  st.subheader("AI & DS")
 html_temp = """
    <div class="" style="background-color:orange;" >
    <div class="clearfix">           
