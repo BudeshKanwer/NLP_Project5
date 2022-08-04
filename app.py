@@ -20,7 +20,7 @@ def review(text):
   from nltk.stem.porter import PorterStemmer
   corpus = []
   for i in range(0, 1000):
-    review = re.sub('[^a-zA-Z]', ' ', dataset['Review'][i])
+    review = re.sub('[^a-zA-Z]', ' ', dataset['text'][i])
     review = review.lower()
     review = review.split()
     ps = PorterStemmer()
